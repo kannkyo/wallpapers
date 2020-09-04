@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Specify the path to the desktop background image file
-picture=`find . | grep jpg | sort -R | tail -n 1`
+picture=`find . | grep -E "jpg|jpeg|png|tiff|tif|JPG|JPEG|PNG|TIFF|TIF" | sort -R | tail -n 1`
 root=`pwd`
 picture_uri=file://$root/$picture
 
