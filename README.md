@@ -1,11 +1,25 @@
 # change-wallpaper
 
-自動的に背景画像を変更するツール。
+背景画像を自動変更するためのツール。
+
+## 動作環境
+
+- Ubuntu 20.04
 
 ## 使い方
 
-トップディレクトリに画像を追加
+1. このリポジトリをクローンする。
 
-```sh
-./change-wallpapers.sh
-```
+    ```bash
+    git clone <url_to_shit_repository>
+    ```
+
+2. トップディレクトリに画像を追加
+
+    このリポジトリの
+
+3. スクリプトを実行する。
+
+    ```sh
+    ./change-wallpapers.sh
+    ```
