@@ -3,8 +3,6 @@
 cd `dirname $0`
 
 # To change wallpaper without X11
-PID=$(pgrep gnome-session)
-export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/environ | cut -d= -f2-)
 
 # Specify the path to the desktop background image file
 picture=`find . | grep -E "jpg|jpeg|png|tiff|tif|JPG|JPEG|PNG|TIFF|TIF" | sort -R | tail -n 1`
