@@ -1,0 +1,16 @@
+[tool.poetry]
+authors = ["kannkyo <15080890+kannkyo@users.noreply.github.com>"]
+description = "背景画像を自動変更するためのツール。"
+license = "MIT"
+name = "wallpapers"
+version = "1.1.0"
+
+[tool.poetry.dependencies]
+himawaripy = "^2.2.0"
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]

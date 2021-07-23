@@ -1,4 +1,4 @@
-# change-wallpaper
+# Wallpapers
 
 背景画像を自動変更するためのツール。
 
@@ -8,18 +8,22 @@
 
 ## 使い方
 
+### change-wallpaper
+
 1. このリポジトリをクローンする。
 
     ```bash
-    git clone <url_to_shit_repository>
+    git clone https://github.com/kannkyo/wallpapers
     ```
 
-2. トップディレクトリに画像を追加
+2. パッケージをインストールする。
 
-    このリポジトリの
+    ```bash
+    poetry install
+    ```
 
 3. スクリプトを実行する。
 
     ```sh
-    ./change-wallpapers.sh
+    ./himawari.sh
     ```
